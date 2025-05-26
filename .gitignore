@@ -1,0 +1,75 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ignore csv files
+*.csv
+*.csv:Zone.Identifier
+
+# ignore excel files
+*.xlsx
+*.xlsm
+*.xls
+
+# ignore pyc files
+*.pyc
+
+# ignore parquet files
+*.parquet
+
+# ignore Pickle Files
+*.pkl
+*.pkl:Zone.Identifier
+*.pickle
+*.sav
+
+# ignore hdf5 files
+*.h5
+
+# ignore PNG files
+*.png
+*.jpg
+
+# ignore archives
+*.rar
+*.zip
+*.tar 
+
+# ignore config files
+Credentials.json
+brawa.config:Zone.Identifier
+
+#ignore temporary files
+*.tmp
+
+# ignore log file
+*.log
