@@ -16,10 +16,29 @@ complex data structures that require reasonable analysis in order to extract cru
  
  ## Setup
  
+ packages to be installed:
  
+ xgboost 1.7.3
+ shap 0.42.1
+ sktime 0.33.0
  
  ## Dataset
  
+ The used dataset represents a multivariate time series based on multi sensor nodes placed at different positions in an EN54 test room. The dataset can be downloaded here: #ADD LINK TO ACTUAL DATASET
+ 
+ After downloading the dataset, store it into the local folder 'data' using the file name 'indoor_fire_detection_multisensornodes_dataset.csv'.
 
 
 ## How to cite
+
+
+## TODOS (DELETE!)
+
+- upload indoor_fire_detection_multisensornodes_dataset.csv als neues basis dataset (anstelle des aktuellen auf mendely), hier sind schon die columns umbenannt etc.; verweise auf diesen link im Readme bzw. auch im Code beim import des datasets
+- nutze nur relative paths für import und exports
+# hier weiter
+- reinige die application app (füge neue namen für datasets ein), merge single node und network in eine app
+- räume den export ordner auf, sodass nur noch die files vom aktuellen durclauf drin sind
+- teste, dass alles hintereinander durchläuft: dataset downloaden, preprocessing, models, evaluation app
+- push repo to github (auf mac ist die aktuellste Version, nicht auf Festplatte!)
+- finalisiere die README.md

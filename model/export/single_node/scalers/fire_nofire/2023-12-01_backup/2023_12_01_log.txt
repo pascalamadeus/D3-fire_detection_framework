@@ -1,0 +1,791 @@
+100%
+200/200 [12:16<00:00, 3.72s/it]
+
+Sensornode: 8
+Scaler: NoScaling
+max Shap value NoFire:  0.06945235419068091
+min Shap value NoFire -0.17400293116718524
+max Shap value Fire:  0.17400293165961223
+min Shap value Fire -0.06945235337875377
+Base SHAP Value (expected_value): [0.5018005 0.4981995]
+
+100%
+200/200 [12:21<00:00, 3.72s/it]
+
+Sensornode: 8
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.0926135471200755
+min Shap value NoFire -0.07043504608292411
+max Shap value Fire:  0.07043504654049115
+min Shap value Fire -0.09261354748343414
+Base SHAP Value (expected_value): [0.50153881 0.49846118]
+
+100%
+200/200 [12:20<00:00, 3.74s/it]
+
+Sensornode: 8
+Scaler: RobustScaler
+max Shap value NoFire:  0.07042465380091073
+min Shap value NoFire -0.16971025093780578
+max Shap value Fire:  0.16971025021488206
+min Shap value Fire -0.07042465457154301
+Base SHAP Value (expected_value): [0.50200849 0.49799152]
+
+100%
+200/200 [12:07<00:00, 3.51s/it]
+
+Sensornode: 8
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.07074669617540641
+min Shap value NoFire -0.16717388118913223
+max Shap value Fire:  0.16717387977870202
+min Shap value Fire -0.07074669495031766
+Base SHAP Value (expected_value): [0.50207463 0.49792538]
+
+100%
+200/200 [11:51<00:00, 3.63s/it]
+
+Sensornode: 8
+Scaler: PowerTransformer
+max Shap value NoFire:  0.06913316491883476
+min Shap value NoFire -0.12269615702910147
+max Shap value Fire:  0.12269615700838282
+min Shap value Fire -0.06913316464728114
+Base SHAP Value (expected_value): [0.50142727 0.49857273]
+
+100%
+200/200 [12:10<00:00, 3.67s/it]
+
+Sensornode: 8
+Scaler: Normalizer
+max Shap value NoFire:  0.05701880197585116
+min Shap value NoFire -0.04158523607353168
+max Shap value Fire:  0.041585235772933216
+min Shap value Fire -0.05701880095781581
+Base SHAP Value (expected_value): [0.49960886 0.50039114]
+
+100%
+200/200 [12:05<00:00, 3.71s/it]
+
+Sensornode: 8
+Scaler: StandardScaler
+max Shap value NoFire:  0.07395373568875668
+min Shap value NoFire -0.20824019136868488
+max Shap value Fire:  0.20824019119108889
+min Shap value Fire -0.07395373363823216
+Base SHAP Value (expected_value): [0.50163228 0.49836772]
+
+100%
+200/200 [12:10<00:00, 3.66s/it]
+
+Sensornode: 8
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.0698295312484864
+min Shap value NoFire -0.16752871893754875
+max Shap value Fire:  0.16752871900221106
+min Shap value Fire -0.06982953099362399
+Base SHAP Value (expected_value): [0.50209376 0.49790624]
+
+100%
+200/200 [11:58<00:00, 3.51s/it]
+
+Sensornode: 9
+Scaler: NoScaling
+max Shap value NoFire:  0.1019119986351581
+min Shap value NoFire -0.06309167198339141
+max Shap value Fire:  0.06309167092919024
+min Shap value Fire -0.10191200042091769
+Base SHAP Value (expected_value): [0.5038545  0.49614552]
+
+100%
+200/200 [11:47<00:00, 3.56s/it]
+
+Sensornode: 9
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.06182783837206213
+min Shap value NoFire -0.08518557769300433
+max Shap value Fire:  0.08518557727862203
+min Shap value Fire -0.06182783648631343
+Base SHAP Value (expected_value): [0.50259258 0.49740742]
+
+100%
+200/200 [11:45<00:00, 3.49s/it]
+
+Sensornode: 9
+Scaler: RobustScaler
+max Shap value NoFire:  0.102381284539866
+min Shap value NoFire -0.06305707937783414
+max Shap value Fire:  0.06305707942261013
+min Shap value Fire -0.10238128783149042
+Base SHAP Value (expected_value): [0.50382319 0.49617681]
+
+100%
+200/200 [11:54<00:00, 3.50s/it]
+
+Sensornode: 9
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.10202536108401455
+min Shap value NoFire -0.06310126961338772
+max Shap value Fire:  0.06310126902132407
+min Shap value Fire -0.10202536325982714
+Base SHAP Value (expected_value): [0.50386664 0.49613336]
+
+100%
+200/200 [12:05<00:00, 3.65s/it]
+
+Sensornode: 9
+Scaler: PowerTransformer
+max Shap value NoFire:  0.11207272469981797
+min Shap value NoFire -0.14828881252665546
+max Shap value Fire:  0.1482888119561742
+min Shap value Fire -0.11207272497391702
+Base SHAP Value (expected_value): [0.50168638 0.49831362]
+
+100%
+200/200 [12:12<00:00, 3.70s/it]
+
+Sensornode: 9
+Scaler: Normalizer
+max Shap value NoFire:  0.12166055289399552
+min Shap value NoFire -0.08159508258630069
+max Shap value Fire:  0.08159508099721446
+min Shap value Fire -0.12166055318544639
+Base SHAP Value (expected_value): [0.500932   0.49906801]
+
+100%
+200/200 [12:06<00:00, 3.57s/it]
+
+Sensornode: 9
+Scaler: StandardScaler
+max Shap value NoFire:  0.05421135284073747
+min Shap value NoFire -0.062304620081082396
+max Shap value Fire:  0.062304620609979544
+min Shap value Fire -0.05421135182878212
+Base SHAP Value (expected_value): [0.50288565 0.49711435]
+
+100%
+200/200 [11:54<00:00, 3.50s/it]
+
+Sensornode: 9
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.10191115602581124
+min Shap value NoFire -0.06277867106489118
+max Shap value Fire:  0.06277867094149206
+min Shap value Fire -0.10191115855373933
+Base SHAP Value (expected_value): [0.50389189 0.49610812]
+
+100%
+200/200 [11:43<00:00, 3.51s/it]
+
+Sensornode: 10
+Scaler: NoScaling
+max Shap value NoFire:  0.07076111340225177
+min Shap value NoFire -0.10967594730279728
+max Shap value Fire:  0.10967594642237466
+min Shap value Fire -0.07076110995506718
+Base SHAP Value (expected_value): [0.50398111 0.49601888]
+
+100%
+200/200 [11:43<00:00, 3.59s/it]
+
+Sensornode: 10
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.13570483248656262
+min Shap value NoFire -0.12679661881135412
+max Shap value Fire:  0.12679661873086895
+min Shap value Fire -0.13570483285733326
+Base SHAP Value (expected_value): [0.50117411 0.49882589]
+
+100%
+200/200 [11:46<00:00, 3.52s/it]
+
+Sensornode: 10
+Scaler: RobustScaler
+max Shap value NoFire:  0.07319918001558595
+min Shap value NoFire -0.09469920976191792
+max Shap value Fire:  0.09469921091040095
+min Shap value Fire -0.07319918107080486
+Base SHAP Value (expected_value): [0.50320659 0.4967934 ]
+
+100%
+200/200 [11:43<00:00, 3.52s/it]
+
+Sensornode: 10
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.07070445537766573
+min Shap value NoFire -0.10962731482691859
+max Shap value Fire:  0.10962731356146305
+min Shap value Fire -0.07070445528503028
+Base SHAP Value (expected_value): [0.50399509 0.49600491]
+
+100%
+200/200 [11:45<00:00, 3.55s/it]
+
+Sensornode: 10
+Scaler: PowerTransformer
+max Shap value NoFire:  0.10162427446992317
+min Shap value NoFire -0.08884771810878245
+max Shap value Fire:  0.08884771781476763
+min Shap value Fire -0.10162427579750444
+Base SHAP Value (expected_value): [0.50163314 0.49836685]
+
+100%
+200/200 [11:42<00:00, 3.51s/it]
+
+Sensornode: 10
+Scaler: Normalizer
+max Shap value NoFire:  0.0714836429014698
+min Shap value NoFire -0.06933609744944935
+max Shap value Fire:  0.06933609712879202
+min Shap value Fire -0.07148364362744114
+Base SHAP Value (expected_value): [0.50044525 0.49955474]
+
+100%
+200/200 [11:44<00:00, 3.50s/it]
+
+Sensornode: 10
+Scaler: StandardScaler
+max Shap value NoFire:  0.06583915598782347
+min Shap value NoFire -0.062001954901928336
+max Shap value Fire:  0.062001955226747785
+min Shap value Fire -0.0658391572262554
+Base SHAP Value (expected_value): [0.5048554  0.49514459]
+
+100%
+200/200 [11:53<00:00, 3.60s/it]
+
+Sensornode: 10
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.07070445537766573
+min Shap value NoFire -0.10962731482691859
+max Shap value Fire:  0.10962731356146305
+min Shap value Fire -0.07070445528503028
+Base SHAP Value (expected_value): [0.50399509 0.49600491]
+
+100%
+200/200 [11:44<00:00, 3.53s/it]
+
+Sensornode: 11
+Scaler: NoScaling
+max Shap value NoFire:  0.06701990017168241
+min Shap value NoFire -0.10869223431733349
+max Shap value Fire:  0.10869223408840778
+min Shap value Fire -0.06701990050204137
+Base SHAP Value (expected_value): [0.50289748 0.49710252]
+
+100%
+200/200 [11:44<00:00, 3.53s/it]
+
+Sensornode: 11
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.09357892735533999
+min Shap value NoFire -0.07365493397467487
+max Shap value Fire:  0.07365493417612878
+min Shap value Fire -0.09357892673568025
+Base SHAP Value (expected_value): [0.50313505 0.49686495]
+
+100%
+200/200 [11:44<00:00, 3.61s/it]
+
+Sensornode: 11
+Scaler: RobustScaler
+max Shap value NoFire:  0.0680184884347679
+min Shap value NoFire -0.07837609968226245
+max Shap value Fire:  0.07837609941632051
+min Shap value Fire -0.06801848790106402
+Base SHAP Value (expected_value): [0.50222824 0.49777176]
+
+100%
+200/200 [11:40<00:00, 3.51s/it]
+
+Sensornode: 11
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.060920017738860216
+min Shap value NoFire -0.0925186653305679
+max Shap value Fire:  0.09251866542390619
+min Shap value Fire -0.06092001720435855
+Base SHAP Value (expected_value): [0.50209038 0.49790962]
+
+100%
+200/200 [11:40<00:00, 3.61s/it]
+
+Sensornode: 11
+Scaler: PowerTransformer
+max Shap value NoFire:  0.10436302797733743
+min Shap value NoFire -0.04902815867714433
+max Shap value Fire:  0.04902815927430931
+min Shap value Fire -0.10436302759932858
+Base SHAP Value (expected_value): [0.5018185  0.49818151]
+
+100%
+200/200 [11:44<00:00, 3.51s/it]
+
+Sensornode: 11
+Scaler: Normalizer
+max Shap value NoFire:  0.1057094508927075
+min Shap value NoFire -0.0679664888786135
+max Shap value Fire:  0.0679664886829956
+min Shap value Fire -0.10570945052197808
+Base SHAP Value (expected_value): [0.50053882 0.49946118]
+
+100%
+200/200 [11:43<00:00, 3.52s/it]
+
+Sensornode: 11
+Scaler: StandardScaler
+max Shap value NoFire:  0.06445007631171112
+min Shap value NoFire -0.13568834811948827
+max Shap value Fire:  0.13568834823816373
+min Shap value Fire -0.06445007838106998
+Base SHAP Value (expected_value): [0.5013239  0.49867611]
+
+100%
+200/200 [11:41<00:00, 3.49s/it]
+
+Sensornode: 11
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.06356766278786444
+min Shap value NoFire -0.09766543054032659
+max Shap value Fire:  0.09766543096520805
+min Shap value Fire -0.06356766310949338
+Base SHAP Value (expected_value): [0.5019595  0.49804049]
+
+100%
+200/200 [11:42<00:00, 3.54s/it]
+
+Sensornode: 12
+Scaler: NoScaling
+max Shap value NoFire:  0.07757154945110745
+min Shap value NoFire -0.08112141418272056
+max Shap value Fire:  0.08112141371359707
+min Shap value Fire -0.07757154926770554
+Base SHAP Value (expected_value): [0.50434108 0.49565892]
+
+100%
+200/200 [11:44<00:00, 3.52s/it]
+
+Sensornode: 12
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.08384298333902185
+min Shap value NoFire -0.08826020900633097
+max Shap value Fire:  0.08826020937276544
+min Shap value Fire -0.08384298295809256
+Base SHAP Value (expected_value): [0.51899899 0.48100102]
+
+100%
+200/200 [11:43<00:00, 3.52s/it]
+
+Sensornode: 12
+Scaler: RobustScaler
+max Shap value NoFire:  0.07657894563788395
+min Shap value NoFire -0.08113587215558496
+max Shap value Fire:  0.08113587112221687
+min Shap value Fire -0.07657894395387688
+Base SHAP Value (expected_value): [0.50432349 0.49567652]
+
+100%
+200/200 [11:44<00:00, 3.52s/it]
+
+Sensornode: 12
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.07741386465567685
+min Shap value NoFire -0.08072744873920085
+max Shap value Fire:  0.08072744855125535
+min Shap value Fire -0.07741386318731608
+Base SHAP Value (expected_value): [0.50442848 0.49557154]
+
+100%
+200/200 [11:45<00:00, 3.53s/it]
+
+Sensornode: 12
+Scaler: PowerTransformer
+max Shap value NoFire:  0.08287552104561369
+min Shap value NoFire -0.07491369293713807
+max Shap value Fire:  0.0749136930815298
+min Shap value Fire -0.08287552051365088
+Base SHAP Value (expected_value): [0.51668721 0.48331279]
+
+100%
+200/200 [11:44<00:00, 3.50s/it]
+
+Sensornode: 12
+Scaler: Normalizer
+max Shap value NoFire:  0.10200542071227858
+min Shap value NoFire -0.0617524353605208
+max Shap value Fire:  0.06175243589745533
+min Shap value Fire -0.10200542072377686
+Base SHAP Value (expected_value): [0.52027483 0.47972516]
+
+100%
+200/200 [11:43<00:00, 3.52s/it]
+
+Sensornode: 12
+Scaler: StandardScaler
+max Shap value NoFire:  0.07013279994881405
+min Shap value NoFire -0.05305507672153614
+max Shap value Fire:  0.05305507648763197
+min Shap value Fire -0.07013279980583997
+Base SHAP Value (expected_value): [0.50385616 0.49614383]
+
+100%
+200/200 [11:45<00:00, 3.50s/it]
+
+Sensornode: 12
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.07741386465567685
+min Shap value NoFire -0.08072744873920085
+max Shap value Fire:  0.08072744855125535
+min Shap value Fire -0.07741386318731608
+Base SHAP Value (expected_value): [0.50442848 0.49557154]
+
+100%
+200/200 [11:44<00:00, 3.53s/it]
+
+Sensornode: 13
+Scaler: NoScaling
+max Shap value NoFire:  0.09058074768990977
+min Shap value NoFire -0.07185881891856188
+max Shap value Fire:  0.07185881873923716
+min Shap value Fire -0.09058074719112114
+Base SHAP Value (expected_value): [0.51108968 0.48891032]
+
+100%
+200/200 [11:43<00:00, 3.51s/it]
+
+Sensornode: 13
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.05455384583210421
+min Shap value NoFire -0.05286712379858094
+max Shap value Fire:  0.05286712434787244
+min Shap value Fire -0.05455384599325669
+Base SHAP Value (expected_value): [0.50446703 0.49553297]
+
+100%
+200/200 [11:45<00:00, 3.55s/it]
+
+Sensornode: 13
+Scaler: RobustScaler
+max Shap value NoFire:  0.09463487508483692
+min Shap value NoFire -0.06437562354813184
+max Shap value Fire:  0.06437562398302124
+min Shap value Fire -0.09463487576348834
+Base SHAP Value (expected_value): [0.5067532  0.49324679]
+
+100%
+200/200 [11:46<00:00, 3.53s/it]
+
+Sensornode: 13
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.09524500575686268
+min Shap value NoFire -0.06942660718006582
+max Shap value Fire:  0.06942660774114795
+min Shap value Fire -0.09524500530256402
+Base SHAP Value (expected_value): [0.50991203 0.49008797]
+
+100%
+200/200 [11:49<00:00, 3.52s/it]
+
+Sensornode: 13
+Scaler: PowerTransformer
+max Shap value NoFire:  0.06841725568361817
+min Shap value NoFire -0.05341999858008828
+max Shap value Fire:  0.05341999872118686
+min Shap value Fire -0.06841725494895237
+Base SHAP Value (expected_value): [0.50487048 0.49512952]
+
+100%
+200/200 [11:47<00:00, 3.56s/it]
+
+Sensornode: 13
+Scaler: Normalizer
+max Shap value NoFire:  0.05970541660843809
+min Shap value NoFire -0.06353386134875313
+max Shap value Fire:  0.06353386090168306
+min Shap value Fire -0.05970541547307284
+Base SHAP Value (expected_value): [0.50831658 0.49168342]
+
+100%
+200/200 [11:48<00:00, 3.64s/it]
+
+Sensornode: 13
+Scaler: StandardScaler
+max Shap value NoFire:  0.061955381795656544
+min Shap value NoFire -0.06342837743895305
+max Shap value Fire:  0.06342837693070072
+min Shap value Fire -0.061955381177809576
+Base SHAP Value (expected_value): [0.50645751 0.49354249]
+
+100%
+200/200 [11:43<00:00, 3.54s/it]
+
+Sensornode: 13
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.09351631085005285
+min Shap value NoFire -0.0751996870330322
+max Shap value Fire:  0.07519968720565945
+min Shap value Fire -0.0935163119885607
+Base SHAP Value (expected_value): [0.5114514 0.4885486]
+
+100%
+200/200 [11:46<00:00, 3.56s/it]
+
+Sensornode: 14
+Scaler: NoScaling
+max Shap value NoFire:  0.09703412625441732
+min Shap value NoFire -0.06290195379551378
+max Shap value Fire:  0.06290195452161104
+min Shap value Fire -0.09703412723926294
+Base SHAP Value (expected_value): [0.50405138 0.49594861]
+
+100%
+200/200 [11:47<00:00, 3.52s/it]
+
+Sensornode: 14
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.0929433741538146
+min Shap value NoFire -0.06106207408276548
+max Shap value Fire:  0.06106207389128199
+min Shap value Fire -0.09294337312623702
+Base SHAP Value (expected_value): [0.50717883 0.49282117]
+
+100%
+200/200 [11:45<00:00, 3.51s/it]
+
+Sensornode: 14
+Scaler: RobustScaler
+max Shap value NoFire:  0.09306831973043739
+min Shap value NoFire -0.06273284916357863
+max Shap value Fire:  0.06273284996361855
+min Shap value Fire -0.09306832054280517
+Base SHAP Value (expected_value): [0.50407428 0.49592571]
+
+100%
+200/200 [11:46<00:00, 3.52s/it]
+
+Sensornode: 14
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.09680619289032139
+min Shap value NoFire -0.06285954972112134
+max Shap value Fire:  0.06285954906148844
+min Shap value Fire -0.09680619201925755
+Base SHAP Value (expected_value): [0.50416802 0.49583199]
+
+100%
+200/200 [11:47<00:00, 3.53s/it]
+
+Sensornode: 14
+Scaler: PowerTransformer
+max Shap value NoFire:  0.07984770839118147
+min Shap value NoFire -0.08128862716397212
+max Shap value Fire:  0.08128862712795845
+min Shap value Fire -0.0798477102846833
+Base SHAP Value (expected_value): [0.50725018 0.49274982]
+
+100%
+200/200 [11:46<00:00, 3.54s/it]
+
+Sensornode: 14
+Scaler: Normalizer
+max Shap value NoFire:  0.07568230484612945
+min Shap value NoFire -0.08855918005721863
+max Shap value Fire:  0.08855917963709159
+min Shap value Fire -0.07568230474899096
+Base SHAP Value (expected_value): [0.50678478 0.49321522]
+
+100%
+200/200 [11:47<00:00, 3.59s/it]
+
+Sensornode: 14
+Scaler: StandardScaler
+max Shap value NoFire:  0.07129632925604645
+min Shap value NoFire -0.22092476260069127
+max Shap value Fire:  0.22092476102476558
+min Shap value Fire -0.07129632947570863
+Base SHAP Value (expected_value): [0.50267338 0.49732662]
+
+100%
+200/200 [11:45<00:00, 3.53s/it]
+
+Sensornode: 14
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.09680067496178307
+min Shap value NoFire -0.06285954972112134
+max Shap value Fire:  0.06285954906148844
+min Shap value Fire -0.09680067408529769
+Base SHAP Value (expected_value): [0.50416802 0.49583199]
+
+100%
+200/200 [11:47<00:00, 3.54s/it]
+
+Sensornode: 15
+Scaler: NoScaling
+max Shap value NoFire:  0.07552543676476475
+min Shap value NoFire -0.14654453168142872
+max Shap value Fire:  0.14654452907721732
+min Shap value Fire -0.07552543698387193
+Base SHAP Value (expected_value): [0.50232651 0.4976735 ]
+
+100%
+200/200 [11:44<00:00, 3.57s/it]
+
+Sensornode: 15
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.08396214382741679
+min Shap value NoFire -0.07485901865208194
+max Shap value Fire:  0.07485901832916392
+min Shap value Fire -0.08396214327974083
+Base SHAP Value (expected_value): [0.50031111 0.49968889]
+
+100%
+200/200 [11:46<00:00, 3.51s/it]
+
+Sensornode: 15
+Scaler: RobustScaler
+max Shap value NoFire:  0.07649359472587669
+min Shap value NoFire -0.17866447261088025
+max Shap value Fire:  0.17866447164766314
+min Shap value Fire -0.0764935946113729
+Base SHAP Value (expected_value): [0.50233564 0.49766436]
+
+100%
+200/200 [11:48<00:00, 3.69s/it]
+
+Sensornode: 15
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.06291268479045685
+min Shap value NoFire -0.0818189331108593
+max Shap value Fire:  0.08181893297368531
+min Shap value Fire -0.06291268362143365
+Base SHAP Value (expected_value): [0.50161366 0.49838634]
+
+100%
+200/200 [12:10<00:00, 3.75s/it]
+
+Sensornode: 15
+Scaler: PowerTransformer
+max Shap value NoFire:  0.08596604013338804
+min Shap value NoFire -0.07763143817242932
+max Shap value Fire:  0.07763143831813851
+min Shap value Fire -0.08596604014039998
+Base SHAP Value (expected_value): [0.50140885 0.49859114]
+
+100%
+200/200 [11:47<00:00, 3.54s/it]
+
+Sensornode: 15
+Scaler: Normalizer
+max Shap value NoFire:  0.10562705961287722
+min Shap value NoFire -0.06997041537259976
+max Shap value Fire:  0.06997041597899664
+min Shap value Fire -0.10562706199661895
+Base SHAP Value (expected_value): [0.50176337 0.49823662]
+
+100%
+200/200 [11:48<00:00, 3.54s/it]
+
+Sensornode: 15
+Scaler: StandardScaler
+max Shap value NoFire:  0.06156016318748825
+min Shap value NoFire -0.061733323351714026
+max Shap value Fire:  0.061733323460327116
+min Shap value Fire -0.06156016382310647
+Base SHAP Value (expected_value): [0.5008754 0.4991246]
+
+100%
+200/200 [11:47<00:00, 3.52s/it]
+
+Sensornode: 15
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.06178031929309977
+min Shap value NoFire -0.07514822818766692
+max Shap value Fire:  0.07514822790287962
+min Shap value Fire -0.0617803197778212
+Base SHAP Value (expected_value): [0.50174019 0.4982598 ]
+
+100%
+200/200 [11:46<00:00, 3.52s/it]
+
+Sensornode: 16
+Scaler: NoScaling
+max Shap value NoFire:  0.05773114620703362
+min Shap value NoFire -0.04945673000495618
+max Shap value Fire:  0.04945672977897031
+min Shap value Fire -0.057731145733639966
+Base SHAP Value (expected_value): [0.50165529 0.49834472]
+
+100%
+200/200 [11:46<00:00, 3.51s/it]
+
+Sensornode: 16
+Scaler: QuantileTransformer10
+max Shap value NoFire:  0.16756787793200156
+min Shap value NoFire -0.09609153076980353
+max Shap value Fire:  0.09609153088845879
+min Shap value Fire -0.16756787746188542
+Base SHAP Value (expected_value): [0.50213815 0.49786185]
+
+100%
+200/200 [11:44<00:00, 3.51s/it]
+
+Sensornode: 16
+Scaler: RobustScaler
+max Shap value NoFire:  0.06975941818050582
+min Shap value NoFire -0.05929614047688239
+max Shap value Fire:  0.05929614002739825
+min Shap value Fire -0.06975941589215423
+Base SHAP Value (expected_value): [0.50201926 0.49798074]
+
+100%
+200/200 [11:48<00:00, 3.55s/it]
+
+Sensornode: 16
+Scaler: MaxAbsScaler
+max Shap value NoFire:  0.0680877606205359
+min Shap value NoFire -0.4024752482970009
+max Shap value Fire:  0.4024752486421318
+min Shap value Fire -0.06808775801448796
+Base SHAP Value (expected_value): [0.50305914 0.49694087]
+
+100%
+200/200 [11:44<00:00, 3.51s/it]
+
+Sensornode: 16
+Scaler: PowerTransformer
+max Shap value NoFire:  0.0724732083554166
+min Shap value NoFire -0.06928686193123673
+max Shap value Fire:  0.06928686226599368
+min Shap value Fire -0.0724732081105173
+Base SHAP Value (expected_value): [0.50368979 0.49631021]
+
+100%
+200/200 [11:49<00:00, 3.54s/it]
+
+Sensornode: 16
+Scaler: Normalizer
+max Shap value NoFire:  0.1424788935361036
+min Shap value NoFire -0.10150932268189852
+max Shap value Fire:  0.10150932246448974
+min Shap value Fire -0.1424788935794227
+Base SHAP Value (expected_value): [0.50177934 0.49822066]
+
+100%
+200/200 [11:47<00:00, 3.53s/it]
+
+Sensornode: 16
+Scaler: StandardScaler
+max Shap value NoFire:  0.08241689119663675
+min Shap value NoFire -0.14231594496287225
+max Shap value Fire:  0.1423159452524808
+min Shap value Fire -0.08241689138301717
+Base SHAP Value (expected_value): [0.50365763 0.49634237]
+
+100%
+200/200 [11:45<00:00, 3.53s/it]
+
+Sensornode: 16
+Scaler: MinMaxScaler
+max Shap value NoFire:  0.06749628206769376
+min Shap value NoFire -0.37759399275146216
+max Shap value Fire:  0.3775939912849228
+min Shap value Fire -0.06749627969037292
+Base SHAP Value (expected_value): [0.50281093 0.49718907]
