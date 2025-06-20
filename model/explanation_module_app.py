@@ -260,7 +260,7 @@ if selected_model == 'single_node_approach':
     ax4.plot(data_temp_measurements.timepoints, data_temp_measurements['PM05_Room'],'-', label='PM05',color='black')
     ax5.plot(data_temp_measurements.timepoints, data_temp_measurements['PM10_Room'], '-', label='PM10',color='black')
     # legend
-    f.legend(bbox_to_anchor=(0.9, 0.6), loc='upper left', frameon=True, title = 'feature')
+    f.legend(bbox_to_anchor=(0.9, 0.6), loc='upper left', frameon=True, title = 'Feature')
     # Adding y labels
     ax1.set_ylabel(r'$ppm$',rotation=0, labelpad=30, fontsize=10)
     ax2.set_ylabel(r'$ppm$',rotation=0, labelpad=30, fontsize=10)
@@ -268,6 +268,8 @@ if selected_model == 'single_node_approach':
     ax4.set_ylabel(r'$cm^{-3}$',rotation=0,labelpad=30, fontsize=10)
     ax5.set_ylabel(r'$cm^{-3}$',rotation=0,labelpad=30, fontsize=10)
     ax5.set_xlabel('timepoints',rotation=0,labelpad=10, fontsize=10)
+    
+    plt.xlabel('Timepoints')
 
     # Show plot
     plt.show()
