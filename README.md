@@ -25,13 +25,11 @@
  
  1) Download the original dataset from mendely data (doi: 10.17632/npk2zcm85h.2). Make sure to download version 2 of the dataset which is named 'indoor_fire_detection_multisensornodes_dataset.csv'.
  2) Store the dataset as .csv file with name 'indoor_fire_detection_multisensornodes_dataset.csv' into the following path: '...\D3-fire_detection_framework\model\data'
- 3) Run the three core model notebooks:
- [`data_preprocessing.ipynb`](model/data_preprocessing.ipynb)
- 
-	3.1) Run the preprocessing notebook ('data_preprocessing.ipynb') stored in '...\D3-fire_detection_framework\model' to remove ventilation artefacts, ensure correct data format for further processing as a multivariate time series
-	3.2) Run the two model notebooks ('detecting_early_fire_indicator_patterns_single_node.ipynb' and 'detecting_early_fire_indicator_patterns_network.ipynb') to extract model predictions and explanations. They will be automatically stored in the correct folder ('...\D3-fire_detection_framework\model\export\single_node resp. \network'). Note that you can define the options for scalers used in the pipeline in both scripts. The runtime of the model scruipts depends on the amount of defined scalers.
+ 3) Run the three core model notebooks: 
+	3.1.) Run [`data_preprocessing.ipynb`](model/data_preprocessing.ipynb) to remove ventilation artefacts, ensure correct data format for further processing as a multivariate time series
+	3.2.) Run the two model notebooks ([`detecting_early_fire_indicator_patterns_single_node.ipynb`](model/detecting_early_fire_indicator_patterns_single_node.ipynb) and [`detecting_early_fire_indicator_patterns_network.ipyn`](model/detecting_early_fire_indicator_patterns_network.ipyn). They will be automatically stored in the correct folder ('...\D3-fire_detection_framework\model\export\single_node resp. \network'). Note that you can define the options for scalers used in the pipeline in both scripts. The runtime of the model scruipts depends on the amount of defined scalers.
  4) Run the explanation app to investiagte the model performance and time-related model explanations:
-	4.1) Open a terminal running your python env (e.g. CMD prompt when using windows) and navigate to the model folder ('...\D3-fire_detection_framework\model')
-	4.2) Run the explanation app using the command 'streamlit run explanation_module_app.py'. After running that command, a new tab opens automatically in your default web browser displaying the explanation app
+	4.1.) Open a terminal running your python env (e.g. CMD prompt when using windows) and navigate to the model folder ('...\D3-fire_detection_framework\model')
+	4.2.) Run [`explanation_module_app.py`](model/explanation_module_app.py) using the command 'streamlit run explanation_module_app.py'. After running that command, a new tab opens automatically in your default web browser displaying the explanation app
  
  ## How to cite
