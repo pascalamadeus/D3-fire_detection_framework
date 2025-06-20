@@ -1,10 +1,13 @@
 # D3-fire_detection_framework
  This repository contains the code used in the paper "Enhancing Early Indoor Fire Detection Using Indicative Patterns in Multivariate Time Series Data Based on Multi-Sensor Nodes"
  
- ## Overview
+%TODO: write short overview with fiew pics
+
+![overview_repo](model/data/figures/overview_repo.png)
  
+ Please cite our paper if you refer to our results or use the method or code in your own work:
  
- 
+ %TODO: add citation
  
  ## Abstract
  
@@ -19,7 +22,7 @@
 - xgboost 1.7.3
 - streamlit 1.24.1
  
- ## Usage
+ ## Usage and Reproducing Experiments
  
  To use this package, follow these steps:
  
@@ -27,12 +30,11 @@
    Download the original dataset from Mendeley Data: **[DOI: 10.17632/npk2zcm85h.2](https://doi.org/10.17632/npk2zcm85h.2)**. Make sure to download **version 2** of the dataset, which is named `indoor_fire_detection_multisensornodes_dataset.csv`. 
  2) **Store the dataset in your local copy of this repo**
  - clone this repository to your local storage
- - file with name `indoor_fire_detection_multisensornodes_dataset.csv` into the following path: `...\D3-fire_detection_framework\model\data`
+ - store the dataset file named `indoor_fire_detection_multisensornodes_dataset.csv` into the following path: `...\D3-fire_detection_framework\model\data`
  3) **Run the three core model notebooks** 
  - Run [`data_preprocessing.ipynb`](model/data_preprocessing.ipynb) to remove ventilation artefacts, ensure correct data format for further processing as a multivariate time serie
- - Run the two model notebooks ([`detecting_early_fire_indicator_patterns_single_node.ipynb`](model/detecting_early_fire_indicator_patterns_single_node.ipynb) and [`detecting_early_fire_indicator_patterns_network.ipyn`](model/detecting_early_fire_indicator_patterns_network.ipyn). They will automatically store the .csv files containing the predictions and explanations in the correct folder (`...\D3-fire_detection_framework\model\export\single_node` resp. `\network`). Note that you can define the options for scalers used in the pipeline in both scripts. The runtime of the model scripts depends on the amount of defined scalers.
+ - Run the two model notebooks ([`detecting_early_fire_indicator_patterns_single_node.ipynb`](model/detecting_early_fire_indicator_patterns_single_node.ipynb) and [`detecting_early_fire_indicator_patterns_network.ipyn`](model/detecting_early_fire_indicator_patterns_network.ipyn). They will automatically store the .csv files containing the predictions and explanations in the correct folder (`...\D3-fire_detection_framework\model\export\single_node` resp. `\network`). Note that you can define the options for scalers used in the pipeline in both scripts. The runtime of both scripts depends on the amount of defined scalers.
  4) **Run the explanation app to investiagte the model performance and time-related model explanations**
-- Open a terminal running your python env (e.g. CMD prompt when using windows) and navigate to the model folder `...\D3-fire_detection_framework\model`
-- Run [`explanation_module_app.py`](model/explanation_module_app.py) using the command `streamlit run explanation_module_app.py`. After running that command, a new tab opens automatically in your default web browser displaying the explanation app.
+- Open a terminal running your python env (e.g. CMD prompt when using windows) and navigate to the model folder `...\D3-fire_detection_framework\model` using the command `cd ...\D3-fire_detection_framework\model`.
+- Run [`explanation_module_app.py`](model/explanation_module_app.py) using the command `streamlit run explanation_module_app.py`. A new tab automatically opens in your default web browser displaying the explanation app.
  
- ## How to cite
