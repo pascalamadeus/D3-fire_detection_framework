@@ -8,37 +8,30 @@
  
  ## Abstract
  
- Multi-sensor technology is becoming increasingly accessible, resulting in more
-complex data structures that require reasonable analysis in order to extract crucial information. In this study, we propose a novel approach for enhancing early indoor fire detection using multi-sensor nodes. We model the task of early indoor fire detection as a binary classification problem in multivariate time series (MTS) data to capture early fire indicator patterns in their (a) dimension of emissions, (b) dimension of sensor placement and (c) dimension of time. We combine a prediction component based on ROCKET (RandOm Convolutional KErnel Transformation) and an explanation component based on SHAP (SHapley Additive exPlanations) as a novel approach to provide robust early fire detection and model agnostic explanations simultaneously in one system. Based on five different sensor measurements (CO, H2, VOC (volatile organic compounds), PM05, and PM10 (particulate matter)) mea-sured at nine different sensor node positions, our results highlight VOC and PM as the main early fire indicators, outperforming gases like H2 or CO. We demonstrate that the dimension of time is just as important to early indoor fire detection as the absolute sensor measurement value (dimension of emissions). Our findings indicate that a single node approach is more suitable than a network approach for the purpose of early indoor fire detec-tion. Furthermore, we could confirm the presence of numerical underflow in the KernalSHAP explanation for MTSC, which significantly reduces SHAP values (by up to 61 \%) at longer interval lengths. This effect also depends on the total number of input features.
- 
- ## Usage
- 
+ Multi-sensor technology is becoming increasingly accessible, resulting in more complex data structures that require reasonable analysis in order to extract crucial information. In this study, we propose a novel approach for enhancing early indoor fire detection using multi-sensor nodes. We model the task of early indoor fire detection as a binary classification problem in multivariate time series (MTS) data to capture early fire indicator patterns in their (a) dimension of emissions, (b) dimension of sensor placement and (c) dimension of time. We combine a prediction component based on ROCKET (RandOm Convolutional KErnel Transformation) and an explanation component based on SHAP (SHapley Additive exPlanations) as a novel approach to provide robust early fire detection and model agnostic explanations simultaneously in one system. Based on five different sensor measurements (CO, H2, VOC (volatile organic compounds), PM05, and PM10 (particulate matter)) mea-sured at nine different sensor node positions, our results highlight VOC and PM as the main early fire indicators, outperforming gases like H2 or CO. We demonstrate that the dimension of time is just as important to early indoor fire detection as the absolute sensor measurement value (dimension of emissions). Our findings indicate that a single node approach is more suitable than a network approach for the purpose of early indoor fire detec-tion. Furthermore, we could confirm the presence of numerical underflow in the KernalSHAP explanation for MTSC, which significantly reduces SHAP values (by up to 61 \%) at longer interval lengths. This effect also depends on the total number of input features.
  
  ## Setup
  
- packages to be installed:
+ Setup a python env based on python 3.12.3. The following package versions need to be installed in that env:
  
- xgboost 1.7.3
- shap 0.42.1
- sktime 0.33.0
+- shap 0.42.1
+- sktime 0.33.0
+- xgboost 1.7.3
+- streamlit 1.24.1
  
- ## Dataset
+ ## Usage
  
- The used dataset represents a multivariate time series based on multi sensor nodes placed at different positions in an EN54 test room. The dataset can be downloaded here: #ADD LINK TO ACTUAL DATASET
+ To use this package, follow the following steps
  
- After downloading the dataset, store it into the local folder 'data' using the file name 'indoor_fire_detection_multisensornodes_dataset.csv'.
-
-
-## How to cite
-
-
-## TODOS (DELETE!)
-
-- upload indoor_fire_detection_multisensornodes_dataset.csv als neues basis dataset (anstelle des aktuellen auf mendely), hier sind schon die columns umbenannt etc.; verweise auf diesen link im Readme bzw. auch im Code beim import des datasets
-- nutze nur relative paths für import und exports
-# hier weiter
-- reinige die application app (füge neue namen für datasets ein), merge single node und network in eine app
-- räume den export ordner auf, sodass nur noch die files vom aktuellen durclauf drin sind
-- teste, dass alles hintereinander durchläuft: dataset downloaden, preprocessing, models, evaluation app
-- push repo to github (auf mac ist die aktuellste Version, nicht auf Festplatte!)
-- finalisiere die README.md
+ 1) Download the original dataset from mendely data (doi: 10.17632/npk2zcm85h.2). Make sure to download version 2 of the dataset which is named 'indoor_fire_detection_multisensornodes_dataset.csv'.
+ 2) Store the dataset as .csv file with name 'indoor_fire_detection_multisensornodes_dataset.csv' into the following path: '...\D3-fire_detection_framework\model\data'
+ 3) Run the three core model notebooks:
+ [`data_preprocessing.ipynb`](model/data_preprocessing.ipynb)
+ 
+	3.1) Run the preprocessing notebook ('data_preprocessing.ipynb') stored in '...\D3-fire_detection_framework\model' to remove ventilation artefacts, ensure correct data format for further processing as a multivariate time series
+	3.2) Run the two model notebooks ('detecting_early_fire_indicator_patterns_single_node.ipynb' and 'detecting_early_fire_indicator_patterns_network.ipynb') to extract model predictions and explanations. They will be automatically stored in the correct folder ('...\D3-fire_detection_framework\model\export\single_node resp. \network'). Note that you can define the options for scalers used in the pipeline in both scripts. The runtime of the model scruipts depends on the amount of defined scalers.
+ 4) Run the explanation app to investiagte the model performance and time-related model explanations:
+	4.1) Open a terminal running your python env (e.g. CMD prompt when using windows) and navigate to the model folder ('...\D3-fire_detection_framework\model')
+	4.2) Run the explanation app using the command 'streamlit run explanation_module_app.py'. After running that command, a new tab opens automatically in your default web browser displaying the explanation app
+ 
+ ## How to cite
