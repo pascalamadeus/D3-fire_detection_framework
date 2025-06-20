@@ -23,7 +23,10 @@
  
  To use this package, follow the following steps
  
- 1) Download the original dataset from mendely data (doi: 10.17632/npk2zcm85h.2). Make sure to download version 2 of the dataset which is named 'indoor_fire_detection_multisensornodes_dataset.csv'.
+ 1) **Download the dataset**  
+   Download the original dataset from Mendeley Data:  
+   **[DOI: 10.17632/npk2zcm85h.2](https://doi.org/10.17632/npk2zcm85h.2)**  
+   Make sure to download **version 2** of the dataset, which is named `indoor_fire_detection_multisensornodes_dataset.csv`.
  2) Store the dataset as .csv file with name 'indoor_fire_detection_multisensornodes_dataset.csv' into the following path: '...\D3-fire_detection_framework\model\data'
  3) Run the three core model notebooks: 
 - Run [`data_preprocessing.ipynb`](model/data_preprocessing.ipynb) to remove ventilation artefacts, ensure correct data format for further processing as a multivariate time series
