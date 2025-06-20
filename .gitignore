@@ -56,8 +56,8 @@
 *.h5
 
 # ignore PNG files
-*.png
-*.jpg
+#*.png
+#*.jpg
 
 # ignore archives
 *.rar
