@@ -7,21 +7,20 @@ We propose a tensor-based ”D3-Detection framework” to enhance early fire det
  
  Please cite our paper if you refer to our results or use the method or code in your own work:
  
-``
+```
 @article{vorwerkEnhancingEarlyIndoor2025,
 	title = {Enhancing early indoor fire detection using indicative patterns in multivariate time series data based on multi-sensor nodes},
 	volume = {111},
 	issn = {2352-7102},
 	url = {https://www.sciencedirect.com/science/article/pii/S2352710225016547},
 	doi = {10.1016/j.jobe.2025.113417},
-	abstract = {Multi-sensor technology is becoming increasingly accessible, resulting in more complex data structures that require reasonable analysis in order to extract crucial information. In this study, we propose a novel approach for enhancing early indoor fire detection using multi-sensor nodes. We model the task of early indoor fire detection as a binary classification problem in multivariate time series (MTS) data to capture early fire indicator patterns in their (a) dimension of emissions, (b) dimension of sensor placement and (c) dimension of time. We combine a prediction component based on ROCKET (RandOm Convolutional KErnel Transformation) and an explanation component based on SHAP (SHapley Additive exPlanations) as a novel approach to provide robust early fire detection and model agnostic explanations simultaneously in one system. Based on five different sensor measurements (CO, H2, VOC (volatile organic compounds), PM05, and PM10 (particulate matter)) measured at nine different sensor node positions, our results highlight VOC and PM as the main early fire indicators, outperforming gases like H2 or CO. We demonstrate that the dimension of time is just as important to early indoor fire detection as the absolute sensor measurement value (dimension of emissions). We modelled two scenarios: a network approach, in which all sensor node positions were treated as part of a single interconnected network, and a single-node approach, where each sensor node position was considered an independent unit. Our findings indicate that a single node approach is more suitable than a network approach for the purpose of early indoor fire detection. Furthermore, we could confirm the presence of numerical underflow in the KernalSHAP explanation for MTSC, which significantly reduces SHAP values (by up to 61\%) at longer interval lengths. This effect also depends on the total number of input features.},
 	urldate = {2025-07-21},
 	journal = {Journal of Building Engineering},
 	author = {Vorwerk, Pascal and Wahba, Ismail and Spiliopoulou, Myra},
 	month = oct,
 	year = {2025},
 }
-``
+```
 
  
  ## Abstract
