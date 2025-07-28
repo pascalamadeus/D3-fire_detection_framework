@@ -1,5 +1,5 @@
 # D3-fire_detection_framework
- This repository contains the code used in the paper "Enhancing Early Indoor Fire Detection Using Indicative Patterns in Multivariate Time Series Data Based on Multi-Sensor Nodes".
+ This repository contains the code used in the paper [Enhancing Early Indoor Fire Detection Using Indicative Patterns in Multivariate Time Series Data Based on Multi-Sensor Nodes](https://doi.org/10.1016/j.jobe.2025.113417).
  
 We propose a tensor-based ”D3-Detection framework” to enhance early fire detection based on mutli sensor data. Our approach adds an explanation component to the prediction component, which provides valuable insights of fire indicative patterns recognized by the prediction component in the (a) dimension of emissions, (b) dimension of sensor placement and (c) dimension of time and enhances user understanding and effective parameter adaptation for real-world application. 
 
